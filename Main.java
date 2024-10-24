@@ -12,12 +12,12 @@ public class Main {
 
 
         for (int i = 1; i <= 3; i++) {
-            System.out.println("Введите название автомобиля " + i + ":");
+            System.out.println("Введите название автомобиля! " + i + ":");
             String name = scanner.nextLine();
 
             int speed;
             while (true) {
-                System.out.println("Введите скорость автомобиля " + i + " (от 1 до 250):");
+                System.out.println("Введите скорость автомобиля! " + i + " (от 1 до 250):");
                 speed = scanner.nextInt();
                 scanner.nextLine();
 
